@@ -118,7 +118,7 @@ Development
      --> npm start
 
   Browser
-     --> Http://localhost:3000/
+     --> http://localhost:3000/
   
   
         
