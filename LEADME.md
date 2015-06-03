@@ -41,7 +41,18 @@ Las competencias de preguntas se pueden realizar sobre temas diversos (conocimie
     Online quiz
         Blog Quiz
         
-        
+ 
+ Desarrollo
+ ----------
+ Instalar módulos nodejs
+    --> npm install
+
+ Ejecutar proyecto
+    --> npm start 
+
+ Navegador
+    --> http://localhost:3000/
+ 
         
         
         
@@ -97,8 +108,20 @@ The powers of questions can be performed on specific about a subject, character 
         Bait Bazi competitions on topics of poetry
     Online quiz
         Blog Quiz
-        
+  
+Development
+-----------
+  Install modules nodejs
+     --> npm install
+
+  Run Project
+     --> npm start
+
+  Browser
+     --> Http://localhost:3000/
+  
+  
         
 Copyright and License
---------------------
+---------------------
 View file LICENSE.md
