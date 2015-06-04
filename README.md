@@ -47,13 +47,18 @@ Las competencias de preguntas se pueden realizar sobre temas diversos (conocimie
  Instalar módulos nodejs
     --> npm install
 
- Ejecutar proyecto
+ Ejecutar proyecto sin Base de Datos
     --> npm start 
-
+ Ejecutar proyecto con Base de Datos
+    *Debe de tener instalado y configurado foreman, enlace de ayuda https://toolbelt.heroku.com/
+    --> foreman start 
  Navegador
-    --> http://localhost:3000/
- 
-        
+    *Sin Base de Datos
+     --> http://localhost:3000/
+    *Con Base de Datos
+     --> http://localhost:5000/
+    *Url
+     -->http://quiz2015l.herokuapp.com
         
         
 Copyright y Licencia
@@ -114,12 +119,19 @@ Development
   Install modules nodejs
      --> npm install
 
-  Run Project
-     --> npm start
+  Run project without Database
+     -> npm start
+  Run project with Database
+     * You must have installed and configured foreman, helps link https://toolbelt.heroku.com/
+     -> foreman start
 
   Browser
+    *Without Database
      --> http://localhost:3000/
-  
+    *With Database
+     --> http://localhost:5000/
+    *Url
+     -->http://quiz2015l.herokuapp.com
   
         
 Copyright and License
