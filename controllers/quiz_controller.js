@@ -25,7 +25,7 @@ exports.index = function(req,res){
         models.Quiz.findAll({
             where: {
                 pregunta: {
-                    $like: '%'+expresion+'%'
+                    $like: '%'+req.query.search+'%'
                 }
             }
         }).then(function(quizes){
