@@ -13,7 +13,6 @@ exports.load = function(req,res,next,quizId){
 
 
 
-
 exports.index = function(req,res){
     console.info(req.query.search);
     if((req.query.search === "") ||(req.query.search==undefined) ){
